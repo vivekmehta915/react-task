@@ -1,0 +1,160 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1,
+h2 {
+    color: #343a40;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    /* width: 100%; */
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+.editBtn{
+    position: relative;
+    top: -32px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.filterRow {
+    display: flex;
+}
+
+.filterBox {
+    width: 100%;
+}
+.filterBox input, select{
+    width: 100%;
+}
+.boxRow{
+    display: flex;
+}
+.taskList {
+    display: inline-table;
+    flex-direction: row;
+    padding: 19px;
+    width: 100%;
+}
+.taskList h2{
+    
+}
+.taskList .taskBox{
+
+}
+.task {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.task:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.taskDetails {
+    flex-grow: 1;
+}
+
+.taskActions {
+    display: flex;
+    align-items: center;
+}
+
+.taskActions button {
+    margin-left: 8px;
+}
+
+.taskCompleted {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.taskListEmpty {
+    color: #888;
+}
+
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.dashboardSection {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.taskForm {
+    position: relative;
+    max-width: 300px;
+    /* Set your desired maximum width */
+    margin: 20px auto;
+    /* Center the modal */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    /* Adjust the color as needed */
+}
+
+/* Add more styles as needed */
